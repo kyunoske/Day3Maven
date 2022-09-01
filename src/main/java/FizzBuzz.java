@@ -1,5 +1,5 @@
 public class FizzBuzz {
-    public static String fizzbuzz(int value) {
+    public static String fizzBuzz(int value) {
 
         for (int i = 1; i <= 15; i++) {
             if ((i % 15) ==0) {
@@ -14,5 +14,19 @@ public class FizzBuzz {
         }
 
         return String.valueOf(value);
+    }
+
+    public static String fizzBuzzTwo(int value) {
+        if (value % 15 == 0) {
+            return "fizzBuzz";
+        } else if (value % 3 == 0) {
+            return "fizz";
+        } else if (value % 5 == 0) {
+            return "buzz";
+        } else {
+            return String.valueOf(value);
+        }
+
+
     }
 }

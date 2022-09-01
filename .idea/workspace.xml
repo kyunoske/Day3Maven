@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78589fe4-79dd-4e64-b771-9e9aabd5de02" name="Changes" comment="add working fizzBuzz but tests fail">
+    <list default="true" id="78589fe4-79dd-4e64-b771-9e9aabd5de02" name="Changes" comment="fix fizzBuzzTest with string">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661975229684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix fizzBuzzTest with string">
+      <created>1662016958522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662016958522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add junit test" />
     <MESSAGE value="add working fizzBuzz but tests fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="add working fizzBuzz but tests fail" />
+    <MESSAGE value="fix fizzBuzzTest with string" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix fizzBuzzTest with string" />
   </component>
 </project>

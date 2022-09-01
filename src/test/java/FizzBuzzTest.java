@@ -9,10 +9,10 @@ public class FizzBuzzTest {
         //given
         int number = 3;
         //when
-        String actual = FizzBuzz.fizzbuzz(number);
+        String actual = FizzBuzz.fizzBuzzTwo(number);
 
         //then
-        assertEquals("3", actual);
+        assertEquals("fizz", actual);
     }
 
     @Test
@@ -20,10 +20,10 @@ public class FizzBuzzTest {
         //given
         int number = 5;
         //when
-        String actual = FizzBuzz.fizzbuzz(number);
+        String actual = FizzBuzz.fizzBuzzTwo(number);
 
         //then
-        assertEquals("5", actual);
+        assertEquals("buzz", actual);
     }
 
     @Test
@@ -32,9 +32,9 @@ public class FizzBuzzTest {
         int number = 15;
 
         //when
-        String actual = FizzBuzz.fizzbuzz(number);
+        String actual = FizzBuzz.fizzBuzzTwo(number);
 
         //then
-        assertEquals("15", actual);
+        assertEquals("fizzBuzz", actual);
     }
 }
