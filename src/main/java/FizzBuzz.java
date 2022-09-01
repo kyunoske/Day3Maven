@@ -1,4 +1,5 @@
 public class FizzBuzz {
+
     public static String fizzBuzz(int value) {
 
         for (int i = 1; i <= 15; i++) {
