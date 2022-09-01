@@ -12,7 +12,7 @@ public class FizzBuzzTest {
         String actual = FizzBuzz.fizzbuzz(number);
 
         //then
-        assertEquals(3, actual);
+        assertEquals("3", actual);
     }
 
     @Test
@@ -23,7 +23,7 @@ public class FizzBuzzTest {
         String actual = FizzBuzz.fizzbuzz(number);
 
         //then
-        assertEquals("buzz", actual);
+        assertEquals("5", actual);
     }
 
     @Test
@@ -35,6 +35,6 @@ public class FizzBuzzTest {
         String actual = FizzBuzz.fizzbuzz(number);
 
         //then
-        assertEquals(15, actual);
+        assertEquals("15", actual);
     }
 }
